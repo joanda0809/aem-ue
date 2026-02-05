@@ -2,7 +2,7 @@
 function getAEMHost() {
   let host;
   if (window.location.hostname.endsWith('adobeaemcloud.com')) {
-    host = 'https:/author-p182062-e1918846.adobeaemcloud.com';
+    host = 'https://author-p182062-e1918846.adobeaemcloud.com';
   } else {
     host = 'https://publish-p182062-e1918846.adobeaemcloud.com';
   }
